@@ -1,0 +1,55 @@
+body,html {
+ height: 100%;
+}
+body{
+    font-size: 14px;
+    background-color: #E7F3EF; 
+}
+a{
+	
+}
+a:hover, a:focus {
+	text-decoration: none;
+}
+.page-container{
+    padding:30px;
+    min-height:550px;
+    overflow:hidden;
+}
+.header-top{
+    width:100%;
+	margin:0 auto;
+    z-index: 9999;
+	padding:10px;
+	color:#fff;
+	background-color:#2A688C;
+    box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+}
+.progress{
+    margin-bottom:0px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    margin-top:20px;
+}
+
+.footer-bottom{ 
+    width:100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height:auto;
+    padding:30px 0;
+    overflow:hidden;
+    color:#FFF;
+    background-color:#101010;
+    text-align:center;
+}
+
+.error-message{text-align:center;color: #a94442;background-color: #f2dede;border:1px solid #ebccd1;padding:5px 10px;margin:10px 0;}
+.success-message{text-align:center;color: #3c763d;background-color: #dff0d8;border:1px solid #d6e9c6;padding:5px 10px;margin:10px 0;}
